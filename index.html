@@ -13,12 +13,11 @@
 <body>
 <h1>HelloWorld</h1>
 
-<div id="mapid"></div>
-
-<textarea id="content" cols="40" rows="5">1,2,1</textarea>
-<button id="save">Save</button>
+<div id="mapid" class="leaflet-container leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag"></div>
+<a class="btn-sticky" id="save">SAVE</a>
+<a id="download" target="_blank" class="btn-download no-link">ダウンロード</a>
 <br>
-<a id="download" target="_blank">ダウンロード</a>
+<textarea id="content" cols="40" rows="5">lat,lon</textarea>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
       integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
